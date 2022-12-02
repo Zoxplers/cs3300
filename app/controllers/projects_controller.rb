@@ -33,6 +33,8 @@ class ProjectsController < ApplicationController
           format.json { render json: @project.errors, status: :unprocessable_entity }
         end
       end
+    else
+      authenticate_user!
     end
   end
 
@@ -48,6 +50,8 @@ class ProjectsController < ApplicationController
           format.json { render json: @project.errors, status: :unprocessable_entity }
         end
       end
+    else
+      authenticate_user!
     end
   end
 
@@ -60,6 +64,8 @@ class ProjectsController < ApplicationController
         format.html { redirect_to projects_url, notice: "Project was successfully destroyed." }
         format.json { head :no_content }
       end
+    else
+      authenticate_user!
     end
   end
 
