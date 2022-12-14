@@ -47,7 +47,7 @@ gem "bootsnap", require: false
 
 gem 'devise'
 
-gem 'bootstrap', '~> 5.2.2'
+gem 'tailwindcss-rails'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
