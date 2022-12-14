@@ -55,6 +55,12 @@ h1, h2
   padding-top: calc(max(3.7vh, 19.5333px)/3);
 }
 
+button
+{
+  padding: 4px 16px;
+  font-size: medium;
+}
+
 #projects
 {
   margin: 1vw;
