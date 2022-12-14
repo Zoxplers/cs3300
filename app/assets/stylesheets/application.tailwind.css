@@ -52,5 +52,10 @@ h1, h2
   height: max(3.7vh, 19.5333px);
   margin: 0;
   background-color: var(--bg2);
-  padding-top: calc(max(3.7vh, 19.5333px)/8);
+  padding-top: calc(max(3.7vh, 19.5333px)/3);
+}
+
+#projects
+{
+  margin: 1vw;
 }
