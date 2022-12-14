@@ -61,6 +61,11 @@ button
   font-size: medium;
 }
 
+form
+{
+  display: inline-block;
+}
+
 #projects
 {
   margin: 1vw;
