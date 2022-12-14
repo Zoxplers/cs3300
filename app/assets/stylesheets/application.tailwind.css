@@ -34,3 +34,11 @@ body
 {
   font-family: 'Rubik';
 }
+
+h1, h2
+{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: calc(max(3.7vh, 19.5333px)/2);
+}
